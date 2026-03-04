@@ -6,7 +6,7 @@ A deep learning model that detects incomplete or outlined shapes in images and f
 
 ##How It Works
 
-The model takes a black-and-white image containing a shape outline (or partial shape) and outputs the same image with the shape fully filled in. It handles a variety of shape types — rectangles, circles, ellipses, curves, and more — at different scales and positions.
+The model takes a black and white image containing a shape outline (or partial shape) and outputs the same image with the shape fully filled in. It handles a variety of shape types — rectangles, circles, ellipses, curves, and more at different scales and positions.
 
 ---
 
@@ -27,15 +27,12 @@ The model takes a black-and-white image containing a shape outline (or partial s
 
 ##  Architecture
 
-Built on a **Deep U-Net (DeepUNet)** architecture — an encoder-decoder convolutional neural network with skip connections that preserve spatial detail across scales.
+Built on a **Deep U-Net (DeepUNet)** architecture — an encoder-decode CNN
 
 - **Encoder**: Successive downsampling blocks that extract shape features
 - **Bottleneck**: Dense feature representation
 - **Decoder**: Upsampling blocks with skip connections from the encoder
 - **Output**: Single-channel binary mask (filled shape)
-
-The skip connections are key here — they allow the network to carry edge/outline information from the input directly to the output layers, rather than reconstructing it from scratch.
-
 ---
 
 ## Tech Stack
@@ -72,9 +69,4 @@ pip install -r requirements.txt
 └── README.md
 ```
 
----
-
-##  Context
-
-This project was for a coding challenge for the **Najafian Lab**, a kidney disease research lab at the University of Washington. The shape-filling task is foundational to biomedical image segmentation.
 ---
