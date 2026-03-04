@@ -10,7 +10,7 @@ The model takes a black-and-white image containing a shape outline (or partial s
 
 ---
 
-## 📥 Input → 📤 Output
+## Input → Output
 
 <img width="1603" height="444" alt="image" src="https://github.com/user-attachments/assets/aa916bb3-13f4-41e3-aca0-894934d097cd" />
 
@@ -61,7 +61,7 @@ cd AI-Challenge---Shape-Filling-AI-
 pip install -r requirements.txt
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── training.py         # Model training script
