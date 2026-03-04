@@ -1,6 +1,6 @@
 
 #INTRO!!!
-A deep learning model that detects incomplete or outlined shapes in images and fills them with solid regions. Built as a technical challenge for the **Najafian Lab** at the University of Washington.
+A deep learning model that detects incomplete or outlined shapes in images and fills them with solid regions.
 
 ---
 
@@ -12,9 +12,8 @@ The model takes a black-and-white image containing a shape outline (or partial s
 
 ## 📥 Input → 📤 Output
 
-The top row shows raw model inputs (outlines/partial shapes). The bottom row shows the AI-generated filled outputs.
+<img width="1603" height="444" alt="image" src="https://github.com/user-attachments/assets/aa916bb3-13f4-41e3-aca0-894934d097cd" />
 
-![Input vs Output Examples](input_vs_output_2x8.png)
 
 | Shape Type | Input | Output |
 |---|---|---|
