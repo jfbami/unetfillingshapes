@@ -27,7 +27,7 @@ The model takes a black and white image containing a shape outline (or partial s
 
 ##  Architecture
 
-Built on a **Deep U-Net (DeepUNet)** architecture — an encoder-decode CNN
+Built on a DeepUNet architecture (CNN)
 
 - **Encoder**: Successive downsampling blocks that extract shape features
 - **Bottleneck**: Dense feature representation
