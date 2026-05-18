@@ -35,30 +35,6 @@ Built on a **Deep U-Net (DeepUNet)** architecture — an encoder-decode CNN
 - **Output**: Single-channel binary mask (filled shape)
 ---
 
-## Tech Stack
-
-![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
-![PyTorch](https://img.shields.io/badge/PyTorch-2.x-orange?logo=pytorch)
-![NumPy](https://img.shields.io/badge/NumPy-scientific-lightblue?logo=numpy)
-
----
-
-##  Getting Started
-
-### 1. Clone the repo
-
-```bash
-git clone https://github.com/jfbaami/AI-Challenge---Shape-Filling-AI-.git
-cd AI-Challenge---Shape-Filling-AI-
-```
-
-### 2. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-## Project Structure
 
 ```
 ├── training.py         # Model training script
